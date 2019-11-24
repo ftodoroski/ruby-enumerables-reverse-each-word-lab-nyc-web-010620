@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
   new_sentence = []
   words.each { |element| new_sentence << element.reverse }
 
-  new_sentence.join('')
+  new_sentence.join(' ')
 end
